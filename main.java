@@ -1,0 +1,1 @@
+import java.util.*;public class main{public static void main(String[]args){Scanner n=new Scanner(System.in);int m=n.nextInt();for(int i=0;i<m;i++){int y=n.nextInt();System.out.println(y==1985?"CSE department just founded":y==2025?"Its CSE 40 year!!":y>1985?"CSE department turns "+(y-1985)+" years":"");}}}   
